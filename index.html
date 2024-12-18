@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+
+
+    <!-- Font-awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   
+
+    <!-- Css Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <nav class="py-5 position-relative">
+        <div class="container position-relative d-flex justify-content-between">
+            <div class="logo d-flex">
+                <div class="logo-image me-3">
+                    <img class="w-100" src="imgs/logo@2x.png" alt="">
+
+                </div>
+
+                <div class="text">
+                    <span class="text-white d-block fw-bold">Weather</span>
+                    <a class="text-secondary h6" href="">tagline goes here</a>
+
+                </div>
+            </div>
+            <div class="bar-icon">
+                <i class="fa-solid fa-bars text-white"></i>
+
+            </div>
+            
+            <ul class="text-white d-flex">
+                <li class="active ms-5 px-3 py-1"><a href="">Home</a></li>
+                <li class="ms-5  px-3 py-1"><a href="">News</a></li>
+                <li class="ms-5  px-3 py-1"><a href="">Live cameras</a></li>
+                <li class="ms-5  px-3 py-1"><a href="">Photos</a></li>
+                <li class="last ms-5  px-3 py-1"><a href="">Contact</a> </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="home w-100 overflow-auto">
+        <div class="bac-image position-absolute z-n1">
+          
+        </div>
+        <div class="container overflow-auto">
+
+
+            <div class="input-group my-5 ">
+                <input id="search" type="text" class="form-control py-3 rounded-start-pill border-0"
+                    placeholder="Find your location..." aria-label="Recipient's username"
+                    aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary text-white border-0" type="button"
+                    id="button-addon2">Find</button>
+            </div>
+
+            <div id="data" class="items row  text-center">
+         
+
+        </div>
+
+        
+
+    </div>
+    <footer class="mt-5 w-100">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-between">
+                <div class="input-group my-4 w-75">
+                    <input type="text" class="form-control py-3 rounded-start-pill border-0"
+                        placeholder="Enter your email to subscribe..." aria-label="Recipient's username"
+                        aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary text-white border-0" type="button"
+                        id="button-addon2">Subscribe</button>
+                </div>
+
+                <div class="social-icons w-25 d-flex justify-content-end">
+                    <a href=""><i class="fa-brands fa-facebook-f ms-3 d-flex justify-content-center align-items-center"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter ms-3 d-flex justify-content-center align-items-center"></i></a>
+                    <a href=""><i class="fa-brands fa-google-plus-g ms-3 d-flex justify-content-center align-items-center"></i></a>
+                    <a href=""><i class="fa-brands fa-pinterest ms-3 d-flex justify-content-center align-items-center"></i></a>
+
+                </div>
+    
+
+            </div>
+            <p class="copyright text-secondary mt-3 mb-0 pb-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+
+     
+       
+     
+
+
+    </footer>
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
